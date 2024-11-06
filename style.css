@@ -1,0 +1,11 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#output{
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid;
+    min-height: 100px;
+}
