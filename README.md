@@ -5,7 +5,7 @@
 
 This is a simple **Speech to Text** web application that uses the browser's built-in speech recognition API (`webkitSpeechRecognition`). It converts your speech into text in real-time, supporting various languages and dialects.
 
-### Features 🌟:
+### Features 🌟
 - **Multi-Language Support** 🌍: Select from a variety of languages and dialects.
 - **Real-time Speech-to-Text** 🎙️➡️📝: Converts spoken words into text as you speak.
 - **Confidence Level Display** 💯: Shows the confidence percentage of the speech recognition result.
@@ -51,6 +51,10 @@ To run this project locally:
 
 This web application uses the `webkitSpeechRecognition` API, which is currently supported in the **Google Chrome** browser. Ensure that you are using a compatible browser.
 
+## Live Demo 🚀
+
+You can check out the live version of the application here:  
+[Speech to Text Web App](https://speechtotextlive.netlify.app/)
 
 ## Screenshots 🖼️
 
