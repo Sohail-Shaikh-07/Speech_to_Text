@@ -17,7 +17,7 @@ To run this project locally:
 
 1. **Clone the Repository**:
    ```
-   git clone https://github.com/YourUsername/speech-to-text.git
+   git clone https://github.com/Sohail-Shaikh-07/speech-to-text.git
    ```
 
 2. **Open the HTML file**:
