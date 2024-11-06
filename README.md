@@ -3,7 +3,7 @@
 
 ## Description 📜
 
-This is a simple **Speech to Text** web application that uses the browser's built-in speech recognition API (`webkitSpeechRecognition`). It converts your speech into text in real-time, supporting various languages and dialects.
+This is a simple **Speech to Text** web application that uses the browser's built-in speech recognition API (`webkitSpeechRecognition`). It converts your speech into text in real time, supporting various languages and dialects.
 
 ### Features 🌟
 - **Multi-Language Support** 🌍: Select from a variety of languages and dialects.
@@ -58,7 +58,7 @@ You can check out the live version of the application here:
 
 ## Screenshots 🖼️
 
-![Main Page](screenshot.png) *(Add your screenshot here)*
+![Main Page](screenshot.png) 
 
 ## License 📝
 
