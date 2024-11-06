@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
+  <title>Speech to Text</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="watermark">Powered by Sohail Shaikh </div> 
+
+  <div class="voice_to_text">
+    <h1>SPEECH TO TEXT</h1>
+    <div class="dropdown-container">
+      <div class="select-wrapper">
+        <select id="language_select">
+          <option value="en-US" selected>English (United States)</option>
+          <option value="en-IN">English (India)</option>
+          <option value="hi-IN">Hindi (India)</option>
+          <option value="pa-IN">Punjabi (India)</option>
+          <option value="en-GB">English (United Kingdom)</option>
+          <option value="en-AU">English (Australia)</option>
+          <option value="en-NZ">English (New Zealand)</option>
+          <option value="es-ES">Spanish (Spain)</option>
+          <option value="zh-CN">Chinese (Simplified, China)</option>
+          <option value="ar-SA">Arabic (Saudi Arabia)</option>
+          <option value="pt-BR">Portuguese (Brazil)</option>
+          <option value="ru-RU">Russian (Russia)</option>
+          <option value="ja-JP">Japanese (Japan)</option>
+          <option value="de-DE">German (Germany)</option>
+          <option value="fr-FR">French (France)</option>
+          <option value="ko-KR">Korean (South Korea)</option>
+          <option value="it-IT">Italian (Italy)</option>
+          <option value="tr-TR">Turkish (Turkey)</option>
+          <option value="vi-VN">Vietnamese (Vietnam)</option>
+          <option value="pl-PL">Polish (Poland)</option>
+          <option value="nl-NL">Dutch (Netherlands)</option>
+          <option value="th-TH">Thai (Thailand)</option>
+          <option value="sv-SE">Swedish (Sweden)</option>
+          <option value="fa-IR">Persian (Iran)</option>
+          <option value="cs-CZ">Czech (Czech Republic)</option>
+          <option value="el-GR">Greek (Greece)</option>
+          <option value="da-DK">Danish (Denmark)</option>
+          <option value="fi-FI">Finnish (Finland)</option>
+          <option value="he-IL">Hebrew (Israel)</option>
+          <option value="id-ID">Indonesian (Indonesia)</option>
+          <option value="nb-NO">Norwegian (Norway)</option>
+          <option value="ro-RO">Romanian (Romania)</option>
+          <option value="sk-SK">Slovak (Slovakia)</option>
+          <option value="uk-UA">Ukrainian (Ukraine)</option>
+          <option value="hu-HU">Hungarian (Hungary)</option>
+          <option value="sl-SI">Slovenian (Slovenia)</option>
+          <option value="hr-HR">Croatian (Croatia)</option>
+          <option value="et-EE">Estonian (Estonia)</option>
+          <option value="lt-LT">Lithuanian (Lithuania)</option>
+          <option value="lv-LV">Latvian (Latvia)</option>
+          <option value="sr-RS">Serbian (Serbia)</option>
+          <option value="bg-BG">Bulgarian (Bulgaria)</option>
+          <option value="kk-KZ">Kazakh (Kazakhstan)</option>
+          <option value="hy-AM">Armenian (Armenia)</option>
+          <option value="ur-PK">Urdu (Pakistan)</option>
+          <option value="ca-ES">Catalan (Spain)</option>
+          <option value="eu-ES">Basque (Spain)</option>
+          <option value="gl-ES">Galician (Spain)</option>
+          <option value="af-ZA">Afrikaans (South Africa)</option>
+          <option value="is-IS">Icelandic (Iceland)</option>
+          <option value="zu-ZA">Zulu (South Africa)</option>
+          <option value="km-KH">Khmer (Cambodia)</option>
+          <option value="ky-KG">Kyrgyz (Kyrgyzstan)</option>
+          <option value="tk-TM">Turkmen (Turkmenistan)</option>
+          <option value="eo">Esperanto</option>
+          <option value="gu-IN">Gujarati (India)</option>
+          <option value="kn-IN">Kannada (India)</option>
+          <option value="ml-IN">Malayalam (India)</option>
+          <option value="mr-IN">Marathi (India)</option>
+          <option value="bn-BD">Bengali (Bangladesh)</option>
+          <option value="bo-CN">Tibetan</option>
+          <option value="az-AZ">Azerbaijani</option>
+          <option value="ka-GE">Georgian (Georgia)</option>
+          <option value="mk-MK">Macedonian</option>
+          <option value="mn-MN">Mongolian</option>
+          <option value="uz-UZ">Uzbek</option>
+          <option value="xh-ZA">Xhosa</option>
+          <option value="mt-MT">Maltese</option>
+          <option value="ast">Asturian</option>
+          <option value="be">Belarusian</option>
+          
+        </select>
+      </div>
+    </div>
+    <textarea id="convert_text" placeholder="Your speech will appear here..." readonly></textarea>
+    <button id="click_to_record">Start Recording</button>
+    <div id="is_recording">Recording: False</div>
+    <div id="confidence_id">Confidence: 0</div>
+  </div>
+  
+  <footer>
+    Made with ❤️ by <a href="https://www.youtube.com/" target="_blank">Sohail</a>
+  </footer>
+  <div class="social-icons">
+    <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.instagram.com/sohails_07/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://t.me/" target="_blank"><i class="fab fa-telegram"></i></a>
+    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://github.com/Sohail-Shaikh-07" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/sohail-shaikh-504ba0328/" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

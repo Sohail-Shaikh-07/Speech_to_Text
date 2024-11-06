@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #121212; 
+    color: #e0f7fa; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .watermark {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 1rem;
+    color: rgba(144, 202, 249, 0.7); 
+    font-weight: 500;
+  }
+  
+  .voice_to_text {
+    background: linear-gradient(to bottom right, #1a1a2e, #16213e); 
+    padding: 50px;
+    border-radius: 18px; 
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.6);
+    max-width: 700px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    color: #00bcd4; 
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    text-shadow: 0 4px 8px rgba(0, 188, 212, 0.3);
+  }
+  
+  #convert_text {
+    width: 500px;
+    height: 200px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background: #1e3d59;
+    color: #e0f7fa;
+    font-size: 16px;
+    resize: none;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  #click_to_record {
+    background: #00acc1; 
+    border: none;
+    padding: 15px 40px;
+    color: #121212; 
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif; /* Set Times New Roman font */
+    font-weight: bold; /* Make the font bold */
+    cursor: pointer;
+    transition: background 0.3s, box-shadow 0.3s;
+    box-shadow: 0 8px 16px rgba(0, 172, 193, 0.5);
+  }
+  
+
+  #click_to_record:hover {
+    background: #00838f; 
+  }
+  
+  #is_recording, #confidence_id {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #80deea; 
+  }
+  
+  footer {
+    margin-top: 20px;
+    font-size: 14px; 
+    color: #b3e5fc;
+  }
+  
+  a {
+    color: #4dd0e1; 
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .social-icons a {
+    width: 35px;
+    height: 35px;
+    margin: 0 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #4dd0e1; 
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    background-color: #00acc1; 
+    color: #121212; 
+  }
+  
